@@ -1,0 +1,39 @@
+{
+  "name": "next-blog",
+  "version": "0.1.0",
+  "description": "Plugin to turn Next.js into a blog",
+  "main": "index.js",
+  "scripts": {
+    "format": "prettier --write --semi=false *.js */**.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/giuseppeg/next-blog.git"
+  },
+  "keywords": [
+    "next",
+    "blog",
+    "static",
+    "site"
+  ],
+  "author": "Giuseppe Gurgone",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/giuseppeg/next-blog/issues"
+  },
+  "homepage": "https://github.com/giuseppeg/next-blog#readme",
+  "dependencies": {
+    "@mdx-js/loader": "^0.20.3",
+    "@zeit/next-mdx": "^1.2.0",
+    "create-symlink-webpack-plugin": "^1.0.1",
+    "fast-glob": "^2.2.6",
+    "mkdirp": "^0.5.1"
+  },
+  "peerDependencies": {
+    "react": "^16.3.0"
+  },
+  "devDependencies": {
+    "prettier": "^1.16.4",
+    "react": "^16.8.4"
+  }
+}
